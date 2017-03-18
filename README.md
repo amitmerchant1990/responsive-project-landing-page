@@ -11,6 +11,8 @@ Take a look at the [demo](http://www.amitmerchant.com/responsive-project-landing
 
 Fork it and play with it! :blush:
 
+The "all device" screenshot I've made using [Am I Responsive?](http://ami.responsivedesign.is/).
+
 ## Licence
 
 MIT
