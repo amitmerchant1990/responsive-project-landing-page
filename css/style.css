@@ -7,6 +7,12 @@ h4{
   font-weight: bold;
 }
 
+pre {
+  border: 0;
+  background-color: transparent;
+  white-space:nowrap;
+}
+
 .col-md-4 p{
   color: #555;
 }
