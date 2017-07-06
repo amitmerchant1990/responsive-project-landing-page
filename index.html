@@ -7,18 +7,21 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="A minimal Markdown editor">
     <meta name="author" content="Amit Merchant">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
     <meta property="og:title" content="Markdownify" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.amitmerchant.com/electron-markdownify/" />
+    <meta property="og:url" content="https://markdownify.js.org/" />
     <meta property="og:description" content="A minimal Markdown editor" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/amitmerchant1990/test/master/markdownify-mockup1920-1.jpg"/>
     <!-- for Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Markdownify" />
+    <meta name="twitter:creator" content="@amit_merchant">
     <meta name="twitter:description" content="A minimal Markdown editor" />
-    <meta name="theme-color" content="#4CAF50">
-    <title>Markdownify</title>
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/amitmerchant1990/test/master/markdownify-mockup1920-1.jpg">
+    <meta name="theme-color" content="#0b1320">
+    <title>Markdownify - A minimal Markdown editor</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -26,26 +29,6 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand pull-right" href="https://twitter.com/amit_merchant">Twitter</a>
-          <a class="navbar-brand" href="#">Markdownify</a>
-        </div>
-        <!--<div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container text-center">
@@ -57,12 +40,12 @@
           </p>
         </div>
         <div>
-          <a href="https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0" class="btn btn-primary btn-lg">Download</a>
+          <a href="https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0" class="btn btn-success btn-lg">Download</a>
           <a href="https://github.com/amitmerchant1990/electron-markdownify/" class="btn btn-danger btn-lg">GitHub</a>
         </div>
       </div>
       <div class="text-center">
-        <img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/img/markdownify.gif" class="img-responsive custom-image">
+        <img src="https://raw.githubusercontent.com/amitmerchant1990/test/master/final-retina-macbookpro-mockup.png" class="img-responsive custom-image">
       </div>
     </div>
 
@@ -111,6 +94,8 @@
             <li>Save the Markdown preview as PDF</li>
             <li>App will keep alive in tray for quick usage</li>
             <li>Full screen mode</li>
+            <li>Supports multiple cursors</li>
+            <li>Save the Markdown preview as PDF</li>
             <ul>
               <li>Write distraction free.</li>
             </ul>
@@ -131,14 +116,22 @@
             <h2 class="key_features">Develop</h2>
           </div>
           <div>
-              <p>Install it using : <code>npm install electron-markdownify</code></p>
-              <p>And then run:</p>
+              <p>To clone and run this application, you'll need <a href="https://git-scm.com/">Git</a> and <a href="https://nodejs.org/en/download/">Node.js</a> (which comes with <a href="http://npmjs.com/">npm</a>) installed on your computer. From your command line:</p>
           </div>
           <div>
             <pre>
               <code class="bash">
-$> cd PATH-TO-MARKDOWNIFY-DESKTOP-APP
-$> npm install && npm start
+# Clone this repository
+$ git clone https://github.com/amitmerchant1990/electron-markdownify
+
+# Go into the repository
+$ cd electron-markdownify
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
               </code>
             </pre>
           </div>
@@ -158,7 +151,7 @@ $> npm install && npm start
     <hr>
 
     <footer>
-      <p class="text-center">&copy; 2016 <a href="https://www.amitmerchant.com/">Amit Merchant</a>.</p>
+      <p class="text-center">Created by <a href="https://www.amitmerchant.com/">Amit Merchant</a>.</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
